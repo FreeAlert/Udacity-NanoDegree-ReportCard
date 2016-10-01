@@ -10,13 +10,15 @@ public class ReportCard {
     {
         mSubjectName = SubjectName;
         mGrade = Grade;
-
     }
     public String getSubjectName() {
         return mSubjectName;
     }
     public String getGrade(){
         return mGrade;
+    }
+    public void setGrade(String Grade){
+        this.mGrade = Grade;
     }
     @Override
     public String toString() {
